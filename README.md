@@ -9,3 +9,4 @@ Reachable addresses:
 Added test sites:
 * http://johanmansson.se/simplechat
 * http://johanmansson.se/threadly
+* http://johanmansson.se/spaceshooter
