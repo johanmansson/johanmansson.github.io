@@ -3444,10 +3444,12 @@
 			}
 
 		#banner .more {
+			/*
 			-moz-transition: -moz-transform 0.0s ease, opacity 0.0s ease;
 			-webkit-transition: -webkit-transform 0.0s ease, opacity 0.0s ease;
 			-ms-transition: -ms-transform 0.0s ease, opacity 0.0s ease;
 			transition: transform 0.0s ease, opacity 0.0s ease;
+			*/
 			-moz-transition-delay: 0s;
 			-webkit-transition-delay: 0s;
 			-ms-transition-delay: 0s;
