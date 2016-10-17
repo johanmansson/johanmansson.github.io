@@ -3127,7 +3127,7 @@
 		-webkit-transition: opacity 0.0s ease;
 		-ms-transition: opacity 0.0s ease;
 		transition: opacity 0.0s ease;
-		opacity: 0;
+		opacity: 1;
 		padding-top: 3em;
 	}
 
