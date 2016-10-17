@@ -3123,10 +3123,10 @@
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
-		-moz-transition: opacity 0.0s ease;
-		-webkit-transition: opacity 0.0s ease;
-		-ms-transition: opacity 0.0s ease;
-		transition: opacity 0.0s ease;
+		-moz-transition: opacity 0.1s ease;
+		-webkit-transition: opacity 0.1s ease;
+		-ms-transition: opacity 0.1s ease;
+		transition: opacity 0.1s ease;
 		opacity: 1;
 		padding-top: 3em;
 	}
