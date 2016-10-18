@@ -5,19 +5,22 @@
 		<title>Johan Månsson</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-loading">
+	<body class="landing">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-				<!-- Main -->
-					<section id="main">
+
+				<!-- Banner -->
+				<section id="banner">
+
+					<section id="test">
 						<header>
 							<span class="avatar"><img src="images/johan.png" alt="" /></span>
 							<h1>Johan Månsson</h1>
@@ -33,25 +36,49 @@
 						</footer>
 					</section>
 
+					<a href="#one" class="more scrolly">Projects</a>
+				</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+
+								<div class="image">
+									<img src="images/asteroidpong1.png" alt="" />
+								</div>
+
+								<h2>Asteroid Pong</h2>
+								<p>This report describes the software application project in the course Advanced Interaction Design, MAMN01.
+									The purpose of the project is to find new creative ways to utilize sensor data from a smartphone device in order to interact with an application....</p>
+							</header>
+
+							<div class="video-container">
+								<iframe src="https://player.vimeo.com/video/167661244?color=ffffff&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+								</iframe>
+							</div>
+
+						</div>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
+
 						<ul class="copyright">
 							<li>&copy; Johan Månsson</li>
-
 						</ul>
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
