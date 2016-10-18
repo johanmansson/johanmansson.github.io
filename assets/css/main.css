@@ -2952,8 +2952,8 @@ dl {
 		#test .avatar img {
 			display: block;
 			margin: 0 auto;
-			border-radius: 25%;
-			box-shadow: 0 0 0 1.0em #ffffff;
+			border-radius: 100%;
+			box-shadow: 0 0 0 0.5em #ffffff;
 		}
 
 		#test .avatar:before {
