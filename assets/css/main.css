@@ -1943,21 +1943,25 @@
 
 
 	/* Video */
-		.video-container {
-				position: relative;
-				padding-bottom: 56.25%;
-				padding-top: 0px;
-				height: 0;
-				overflow: hidden;
-		}
+	@media screen and (max-width: 750px) {
+	.myIframe {
+		position: relative;
+	  padding-bottom: 56.25%;
+	  padding-top: 0px;
+	  height: 0;
+	  overflow: hidden;
+	}
+	.myIframe iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 
-		.video-container iframe {
-				position: absolute;
-				top:0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-		}
+	}
+}
+
+
 
 
 
@@ -2040,7 +2044,7 @@ ul {
 				}
 
 				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+					text-shadow: 1.25px 0px 0px #4760FF, -1.25px 0px 0px #4760FF, 0px 1.25px 0px #4760FF, 0px -1.25px 0px #4760FF;
 				}
 
 				ul.icons li a:before {
@@ -2056,7 +2060,7 @@ ul {
 				}
 
 				ul.icons li a:hover {
-					border-color: #ff7496;
+					border-color: #4760FF;
 				}
 
 		@media screen and (max-width: 480px) {
@@ -2066,6 +2070,37 @@ ul {
 			}
 
 		}
+
+		ul.icons2 {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons2 li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+			}
+
+				ul.icons2 li:last-child {
+					padding-right: 0 !important;
+				}
+
+			ul.icons2.major {
+				padding: 1em 0;
+			}
+
+				ul.icons2.major li {
+					padding-right: 3.5em;
+				}
+
+					@media screen and (max-width: 736px) {
+
+						ul.icons2.major li {
+							padding: 0 1em !important;
+						}
+
+					}
 
 	ul.actions {
 		cursor: default;
@@ -2077,11 +2112,16 @@ ul {
 			display: inline-block;
 			padding: 0 0.75em 0 0;
 			vertical-align: middle;
+
 		}
 
-			ul.actions li:last-child {
-				padding-right: 0;
-			}
+
+
+
+
+
+
+
 
 dl {
 	margin: 0 0 1.5em 0;
@@ -2684,7 +2724,7 @@ dl {
 			}
 
 			.wrapper.style1 ul.alt li {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: rgba(255, 255, 255, 0.125);
 			}
 
 			.wrapper.style1 table tbody tr {
@@ -3360,7 +3400,7 @@ dl {
 	}
 
 	body.landing #footer {
-		background-color: rgba(25, 16, 49, 1);
+		background-color: rgba(25, 16, 49, 0);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3379,5 +3419,5 @@ dl {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: rgba(25, 16, 49, 1);
+		background-color: rgba(25, 16, 49, 0);
 	}
