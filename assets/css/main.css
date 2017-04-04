@@ -59,6 +59,8 @@
 
 		}
 
+
+
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
@@ -98,6 +100,14 @@
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			h1 {
+				font-size: 1.65em;
+			}
+
 		}
 
 	h2 {
@@ -1137,6 +1147,19 @@ dl {
 				#banner .more {
 					display: none;
 				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+
+			html, body {
+				min-width: 320px;
+			}
+			body, input, select, textarea {
+				font-size: 10pt;
+				line-height: 1.75;
+			}
 
 		}
 
