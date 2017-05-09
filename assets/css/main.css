@@ -507,8 +507,36 @@ ul {
 
 		@media screen and (max-width: 480px) {
 
+
 			ul.icons li a:before {
-				font-size: 1.5rem;
+				font-size: 1.2rem;
+			}
+
+			ul.icons li a {
+
+				width: 3.0em;
+				height: 3.0em;
+				line-height: 3.0em;
+				text-indent: 3.0em;
+
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+
+			ul.icons li a:before {
+				font-size: 1.0rem;
+			}
+
+			ul.icons li a {
+
+				width: 2.3em;
+				height: 2.3em;
+				line-height: 2.3em;
+				text-indent: 2.3em;
+
 			}
 
 		}
@@ -1051,7 +1079,7 @@ dl {
 		justify-content: center;
 		cursor: default;
 		height: 100vh;
-		min-height: 35em;
+		min-height: 10em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
