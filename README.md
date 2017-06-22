@@ -1,10 +1,6 @@
 # johanmansson.se
 
-Repo to test different webpages for projects etc.
-
-Reachable addresses:
-* http://johanmansson.se
-* http://johanmansson.github.io
+Personal website: http://johanmansson.se
 
 Added test sites:
 * http://johanmansson.se/simplechat
